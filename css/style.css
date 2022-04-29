@@ -1,0 +1,217 @@
+/* General class */
+.width60 {
+    width: 60%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.pd8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.line34 {
+    line-height: 34px;
+}
+
+.pd64 {
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
+.pd0 {
+    padding: 0;
+}
+
+.mglr16 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.mgt8px {
+    margin-top: 8px;
+}
+
+.mgb8px {
+    margin-bottom: 8px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.pull-right {
+    float: right;
+}
+.pull-left
+{
+    float: left;
+}
+.inline-block
+{
+    display: inline-block;
+}
+#logo {
+    width: 110px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+body {
+    font-size: 15px;
+    color: black;
+}
+
+.navbar {
+    border-radius: 0;
+
+}
+
+.navbar-inverse {
+    border-color: rgba(0, 128, 0, 0.758);
+    background-color: rgba(0, 128, 0, 0.758);
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: rgba(0, 128, 0, 0.758);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    transition: all 0.5s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: gray;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: rgba(0, 128, 0, 0.749);
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 20%;
+    margin: auto;
+    color: black;
+}
+
+.title {
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+#student {
+    padding-top: 64px;
+    margin-bottom: 64px;
+    padding-bottom: 64px;
+}
+
+.small-title {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+img.student-pic {
+    width: 100%;
+    transition: all 1s;
+}
+
+img.student-pic:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/* Choose school */
+#choose-school {
+    background-color: black;
+}
+.btn-choose
+{
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+/* Contact */
+.icon
+{
+    font-size: 20px;
+    width: 30px;
+    margin-top: 4px;
+}
+.fs18
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+#contact input
+{
+    padding: 8px;
+}
+
+#join
+{
+    background-color: black;
+}
+#join
+{
+    padding-top: 64px;
+}
+
+/* Footer */
+#footer
+{
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+.icon-footer
+{
+    font-size: 26px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+.icon-footer:hover
+{
+    cursor: pointer;
+    opacity: 60%;
+}
+#footer a
+{
+    color: black;
+    text-decoration: underline;
+}

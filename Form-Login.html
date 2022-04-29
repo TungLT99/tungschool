@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/Form-Register.css">
+    <link rel="stylesheet" href="css/formLogIn.css">
+</head>
+<body>
+    <div class="container">
+        <div class="right">
+            <img src="images/formSignUp.jpg" alt="">
+            <a href="Form-Register.html">Create an account</a>
+        </div>
+        <div class="left">
+            <div class="title" id="head">
+                <h2 style="font-size: 34px; font-weight: bold;">Sign In</h2s>
+            </div>
+            <div class="row">
+                <input type="text" placeholder="Name">
+                <ion-icon name="person-sharp"  class="icon"></ion-icon>
+            </div>
+            <div class="row">
+                <input type="password" placeholder="Password">
+                <ion-icon name="lock-closed"  class="icon"></ion-icon>
+            </div>
+            <div class="row" id="agree">
+                <input type="checkbox" class="checkbox">Remember me
+            </div>
+            <div class="row">
+                <input type="submit" class="btn" value="Log in">
+            </div>
+            <p>Or log in with: </p>
+            <button class="btn btn-info"><ion-icon name="logo-facebook"></ion-icon> Facebook</button>
+            <button class="btn btn-danger"><ion-icon name="logo-instagram"></ion-icon>Instagram</button>
+        </div>
+    </div>
+</body>
+</html>
